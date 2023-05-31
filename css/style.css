@@ -1,0 +1,485 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    
+}
+body{
+    background-color: #BCBCBC ;
+    background-image: url(../images/italia/lasagna-ge3f8eb2f6_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    margin: 10px ;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(1, 1, 1, 0.2);
+}
+header figure{
+    margin: auto 10px;
+    height: 80px;
+    width: 80px;
+}
+div.fot{
+    height: 80px;
+    width: 500px;
+    background-color: #034b09;
+}
+div.ban{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 500px;
+    background-color: #BCBCBC;
+}
+div.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 500px;
+    background-color: #B40605;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    margin: auto 10px;
+}
+span{
+    color: #00ff15;
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-around;
+}
+section p{
+    font-size: 100px;
+    color: #BCBCBC;
+}
+section.bevi{
+    display: flex;
+    flex-direction: column;
+    
+}
+section.bevi p{
+    margin: 25px auto;
+}
+section#slide{
+    height: 500px;
+    width: 500px;
+    background-color: #B40605;
+}
+div.line{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    animation: massa 20s infinite;
+    opacity: 0;
+    left: 0;
+    top: 0;
+}
+div.slides{
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    position: absolute;
+    right: 180px;
+    bottom: 280px;
+    display: block;
+}
+@keyframes massa{
+    25%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 0;
+    }
+}
+.line:nth-child(1){
+    animation-delay:0s;
+}
+.line:nth-child(2){
+    animation-delay:5s;
+}
+.line:nth-child(3){
+    animation-delay:10s;
+}
+.line:nth-child(4){
+    animation-delay:15s;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #034b09
+}
+div.dire{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div.lik{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p{
+    font-size: 35px;
+    color: #BCBCBC;
+}
+a{
+    animation: italia 10s infinite;
+}
+@keyframes italia{
+    33%{
+        color: #00ff15;
+    }
+    66%{
+        color: #ffffff;
+    }
+    99%{
+        color: #ff0000;
+    }
+}
+.mass{
+    animation: italia 5s infinite;
+}
+h5{
+    color: #ff0000;
+    font-size: 50px;
+}
+h4{
+    color: #ff0000;
+    font-size: 55px;
+}
+div.carda{
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+div.carda figure{
+height: 200px;
+width: 250px;
+}
+div.carda figure img{
+    margin-left: 15px;
+}
+div.all{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.fot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Css Trabalhe conosco*/
+body#conosco{
+    background-color: #BCBCBC ;
+    background-image: url(../images/chef-italiano-esta-colocando-pizza-gourmet-recem-feita-no-forno-de-pedra.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main#traball{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section#empresa{
+    background-color: #034b0933;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    border: 2px solid #B40605;
+}
+section#pessoal{
+    background-color: #b4050549;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #034b09;
+    align-items: center;
+}
+
+p#infoo{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Zeyada', cursive;
+    
+}
+p#inf{
+    font-size: 20px;
+    color: #e99f9f;
+    margin-bottom: 20px;
+    font-family: 'Eagle Lake', cursive;
+   text-align: center;
+   background: #1c231c84;
+}
+form p{
+    font-size: 21px;
+    color:#d5f5d8;
+    margin: 7px;
+}
+input{
+    width: 210px;
+    height: 40px;
+    border-radius: 12px;
+}
+input#envi{
+    background-color: #558f5a;
+    width: 183px;
+    height: 27px;
+}
+input#culo{
+    width: 200px;
+    height: 30px;
+}
+p#opi{
+    font-size: 15px;
+}
+body#fotos{
+    background-color: #BCBCBC ;
+    background-image: url(../images/massa-italiana-autentica.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header#nav{
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(87, 14, 14, 0);
+}
+main#tres{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+img#foto{
+    width: 200px;
+    height:200px;
+}
+div.fff p{
+font-size: 40px;
+}
+div.fff :nth-child(2){
+    font-size: 20px;
+}
+div.fff :nth-child(3){
+    font-size: 20px;
+}
+.um{
+    display: flex;
+}
+div.fff{
+    background-color: #5d232372;
+    width: 419px;
+    height: 200px;
+}
+
+.integrantes{
+    display: flex;
+    flex-direction: row;
+    
+}
+main.vi{
+    display: flex;
+    flex-direction: column;
+}
+main h1{
+    text-align: center;
+    border: 2px solid;
+    color: #ffffff;
+    background-color: rgba(1, 1, 1, 0.5);
+
+}
+p.info{
+    font-size: 22px;
+    color: #ffffff;
+}
+.bruno{
+    height: 200px;
+    width: 200px;
+    margin: 4px auto;
+}
+
+.bruno p{
+    text-align: center;
+}
+
+
+.bruno img{
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid;
+}
+
+.caio{
+    height: 200px;
+    width: 200px;
+    margin: 4px auto;
+}
+
+.caio p{
+    text-align: center;
+}
+
+
+.caio img{
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid;
+}
+
+.vitor{
+    height: 200px;
+    width: 200px;
+    margin: 4px auto;
+}
+
+.vitor p{
+    text-align: center;
+}
+
+
+.vitor img{
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid;
+}
+
+.ana{
+    height: 200px;
+    width: 200px;
+    margin: 4px auto;
+}
+
+.ana p{
+    text-align: center;
+}
+
+
+.ana img{
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid;
+}
+
+.miguel{
+    height: 200px;
+    width: 200px;
+    margin: 4px auto;
+}
+
+.miguel p{
+    text-align: center;
+}
+
+
+.miguel img{
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid;
+}
+
+.Wadson{
+    height: 200px;
+    width: 200px;
+    margin: 4px auto;
+}
+
+.Wadson p{
+    text-align: center;
+}
+
+
+.Wadson img{
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid;
+}
+.mcl{
+    width: 100%;
+    height: 500px;
+}
+#sOne{
+    width: 40%;
+    height: 600px;
+    border: 1px solid #00ff15;
+    margin: 15px 0px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#sTwo{
+    width: 40%;
+    height: 600px;
+    border: 1px solid #00ff15;
+    margin: 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    margin-top: 30%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.form p{
+    font-size: 30px;
+    color: #ffffff8d;
+}
+h2{
+    margin-top: 5%;
+    color: #ff0000;
+    font-size: 35px;
+}
+footer.f1{
+    margin-top: 11.1%;
+    display: flex;
+    align-items: center;
+}
+div.pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.mapa{
+    margin-top: 25%;
+}
+iframe{
+    width: 100%;
+    height: 200%;
+   
+}
+.uadis p{
+    font-size: 20px;
+}
